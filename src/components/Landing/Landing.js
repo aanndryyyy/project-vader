@@ -13,7 +13,7 @@ export default class Landing extends Component {
           
           <div className="right">
             <ul className="nav-list">
-              <li><a href="#">Login</a></li>
+              <li><a href="">Login</a></li>
             </ul>
           </div>
         </header>
