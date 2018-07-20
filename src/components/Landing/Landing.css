@@ -1,0 +1,31 @@
+.main-wrap {
+  height: 200vh; }
+
+.main-wrap::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 845px;
+  height: 200vh;
+  z-index: -1;
+  background: url("../../styles/bg.svg");
+  background-repeat: no-repeat; }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 45px 50px;
+  font-family: 'Raleway', sans-serif; }
+
+.logo {
+  line-height: 1; }
+
+.nav-list li a {
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #FCFCFC;
+  letter-spacing: 2px; }
+  .nav-list li a:hover {
+    border-bottom: 2px solid #211A1D; }
